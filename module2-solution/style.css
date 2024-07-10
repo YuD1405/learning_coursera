@@ -1,0 +1,35 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  border: 1px solid black;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: lightgray;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.content h2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: darkgray;
+  padding: 5px;
+  margin: 0;
+  border: 1px solid black;
+}
+
+#chicken h2 {
+  background-color: #f8b9b7;
+}
+
+#beef h2 {
+  background-color: #f19292;
+}
+
+#sushi h2 {
+  background-color: #f7e58b;
+}
